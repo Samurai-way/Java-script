@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="createAcc">
+        <h1>Create your account</h1>
+        <div class="createAcc_form">
+            <form name="f1">
+                <p>First Name</p>
+                <input class="first" type="text" name="first" required>
+                <p>Second Name</p>
+                <input class="second" type="text" required name="second">
+                <p>Email address</p>
+                <input class="email" type="email" name="email" required><br>
+                <div action="" name="f2" onclick="genderState()">
+                    <label for="radio1">
+                        <input type="radio" name="rad" id="radio1" value="man">man
+                    </label>
+                    <label for="radio2">
+                        <input type="radio" name="rad" id="radio2" value="wooman">woman
+                    </label>
+                </div>
+                <p>Position</p>
+                <select class="choose" name="choose" id="">
+                    <option value="Choose...">Choose...</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="QC/QA">QC/QA</option>
+                </select><br>
+                <label for="igree"><input class="iAgree" type="checkbox" id="igree" name="iAgree"> I agree all statements
+                    in Terms of service</label><br>
+                <input class="button" type="button" name="button" value="Sign Up">
+            </form>
+        </div>
+    </div>
+
+    <div class="showAcc">
+        <div class="green">
+            <div class="gender"></div>
+        </div>
+        <p class="firstSecond"></p><br>
+        <p class="rezEmail"></p><br>
+        <p class="rezPosition"></p>
+        <hr class="hr">
+        <input class="button2" type="button" name="button2" value="Sign Out">
+        <div class="footer">
+            <img height="24px" src="./images/facebook-f.svg" alt="">
+            <img height="24px" src="./images/github-alt.svg" alt="">
+            <img height="24px" src="./images/linkedin-alt.svg" alt="">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

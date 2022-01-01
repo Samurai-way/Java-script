@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0q;
+    box-sizing: border-box;
+}
+.addColor, .addImage {
+    font-size: 30px;
+    cursor: pointer;
+}
+.colorBox, .imageBox {
+    height: 0px;
+    width: 0px;
+    margin: 50px auto;   
+    border-spacing: 0px;
+    border-collapse: collapse;    
+}
+
+p{
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+.size{
+    height: 300px;
+    width: 600px;
+}
+
+.borRad1{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb1{
+    background-color: #099d8f;
+}
+
+.borRad2{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb2{
+    background-color: #820000;
+}
+
+.borRad3{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb3{
+    background-color: #22be6a;
+}
+
+.borRad4{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb4{
+    background-color: #36df00;
+}
+
+.borRad5{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb5{
+    background-color: #7b7a7f;
+}
+
+.borRad6{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb6{
+    background-color: #f80000;
+}
+
+.borRad7{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb7{
+    background-color: #0100fc;
+}
+
+.borRad8{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb8{
+    background-color: #810081;
+}
+
+.borRad9{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background-size: cover;
+}
+
+.rgb9{
+    background-color: #7c7c00;
+}
+
+
+
+.img1{
+    background-image: url(./images/img1.jpg);
+}
+.img2{
+    background-image: url(./images/img2.jpg);
+}
+.img3{
+    background-image: url(./images/img3.jpg);
+}
+.img4{
+    background-image: url(./images/img4.jpg);
+}
+.img5{
+    background-image: url(./images/img5.jpg);
+}
+.img6{
+    background-image: url(./images/img6.jpg);
+}
+.img7{
+    background-image: url(./images/img7.jpg);
+}
+.img8{
+    background-image: url(./images/img8.jpg);
+}
+.img9{
+    background-image: url(./images/img9.jpg);
+}

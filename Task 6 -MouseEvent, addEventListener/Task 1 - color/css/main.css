@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(116, 0, 116);
+}

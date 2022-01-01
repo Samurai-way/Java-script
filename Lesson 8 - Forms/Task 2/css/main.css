@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.createAcc {
+    display: block;
+    height: 530px;
+    width: 565px;
+    position: relative;
+    top: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.createAcc_form {
+    height: 433px;
+    width: 480px;
+    margin: 0 auto;
+}
+
+h1 {
+    height: 55px;
+    width: 100%;
+    background-color: #2ea565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.first,
+.second,
+.email,
+.choose {
+    width: 100%;
+    height: 35px;
+}
+
+.first:focus, .second:focus, .email:focus, .choose:focus{
+    box-shadow: 0 0 3px 4px #a0c4e8;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+#radio1 {
+    margin-top: 20px;
+}
+
+.choose{
+    outline: none;
+}
+
+.iAgree {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #64b676;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+    height: 45px;
+}
+
+
+/*--------------------------------------------acc created-------------------------------------*/
+
+.showAcc{
+    display: none;
+    width: 430px;
+    height: 430px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.green{
+    height: 118px;
+    width: 100%;
+    background-color: #2ea565;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.gender{
+    width: 118px;
+    height: 118px;
+    margin-top: 50px;
+}
+
+.manBG{
+    width: 118px;
+    height: 118px;
+    background-image: url(./images/man.png);
+}
+
+.woomanBG{
+    width: 118px;
+    height: 118px;
+    background-image: url(./images/wooman.png);
+}
+
+.firstSecond{
+    margin-top: 75px;
+    font-weight: bold;
+}
+
+.rezEmail{
+    margin-top: -8px;
+}
+
+.button2{
+    width: 86px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #97bf9d;
+    border-radius: 3px;
+    background-color: white;
+    color:  #97bf9d;
+    margin-top: 20px;
+}
+
+.hr{
+    margin-top: 16px;
+}
+
+.footer{
+    background-color: #2ea565;
+    height: 50px;
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 0 0 3px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

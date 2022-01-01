@@ -1,0 +1,131 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #acacac;
+    width: 707px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+textarea{
+    background-color: #eae8eb;
+    height: 145px;
+    width: 707px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #acacac;
+    font-weight: bold;
+}
+
+.keyBoard{
+    height: 250px;
+    width: 708px;
+    position: absolute;
+    top: 250px;
+    border-radius: 10px;
+}
+
+.tr1{
+    height: 49px;
+}
+
+.hw45x45{
+    height: 45px;
+    width: 45px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.marLeft{
+    margin: 2px 2px 2px 0;
+}
+
+.marRight{
+    margin: 2px 0 2px 2px;
+}
+
+.hw45x70{
+    height: 45px;
+    width: 70px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hw45x81{
+    height: 45px;
+    width: 81px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hw45x83{
+    height: 45px;
+    width: 83px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hw45x106{
+    height: 45px;
+    width: 106px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hw45x107{
+    height: 45px;
+    width: 107px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.tr5{
+    height: 45px;
+    width: 707px;
+    background-color: #eae8eb;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 2px 0 2px 0;
+}
+
+.bg{
+    background-color: #716f72;
+    color: white;
+}
